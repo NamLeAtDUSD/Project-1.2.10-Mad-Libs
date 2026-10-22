@@ -1,7 +1,10 @@
 import java.util.Scanner;
 public class Madlib {
     public static void main(String[] args) {
+        //creating scanner object to receive user input
         Scanner madScanner = new Scanner(System.in);
+
+        //defining the initial phrases without any user input
         String p1 = "My first date and I met at a ";
         String p2 = " star restaurant. We were having a lot of fun until my date spilled ";
         String p3 = " all over my new T-shirt. I immediately called the waiter to bring us our check and it turned out to be ";
@@ -10,6 +13,7 @@ public class Madlib {
         String p6 = ", and then I started ";
         String p7 = " the restaurant without saying a word to her.";
 
+        //getting the user input
         System.out.println("Enter a whole number");
         int input1 = madScanner.nextInt();
 
