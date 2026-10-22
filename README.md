@@ -19,6 +19,9 @@ https://docs.google.com/document/d/1KwOxk5cKqeeF3sXWZLjvQrp61mw72Y5p6wClATG_OUk/
 --- CONTRIBUTION/MILESTONES ---
 
 Phrases - Samarth
+
 User Input - Kruthik 
+
 Output/Scanner Close - Aedan
+
 Lead - Nam
