@@ -4,7 +4,7 @@ public class Le_Madlib {
         // Intializes the scanner object
         Scanner madScanner = new Scanner(System.in);
         // Initializes original story, prints it out, and documents all indexes for phrases
-        String original = "My first date and I met at a  _n star restaurant. We were having a lot of fun until my date spilled _dr all over my new T-shirt. I immediately called the waiter to bring us our check and it turned out to be $_de. It was _b that my date offered to pay for my t-shirt and the dinner. But, I was still extremely _a, and then I started _v the restaurant without saying a word to her.";
+        String original = "My first date and I met at a _n star restaurant. We were having a lot of fun until my date spilled _dr all over my new T-shirt. I immediately called the waiter to bring us our check and it turned out to be $_de. It was _b that my date offered to pay for my t-shirt and the dinner. But, I was still extremely _a, and then I started _v the restaurant without saying a word to her.";
         System.out.println(original);
         int i1 = original.indexOf("_n");
         int i2 = original.indexOf("_dr");
