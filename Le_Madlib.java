@@ -3,14 +3,21 @@ public class Le_Madlib {
     public static void main(String[] args) {
         // Intializes the scanner object
         Scanner madScanner = new Scanner(System.in);
-        // Intializing all of the pre-set phrases
-        String p1 = "My first date and I met at a ";
-        String p2 = " star restaurant. We were having a lot of fun until my date spilled ";
-        String p3 = " all over my new T-shirt. I immediately called the waiter to bring us our check and it turned out to be $";
-        String p4 = ". It was ";
-        String p5 = " that my date offered to pay for my t-shirt and the dinner. But, I was still extremely ";
-        String p6 = ", and then I started ";
-        String p7 = " the restaurant without saying a word to her.";
+        // Intializing all of the pre-set phrases and displaying original story
+        String original = "My first date and I met at a  _n star restaurant. We were having a lot of fun until my date spilled _dr all over my new T-shirt. I immediately called the waiter to bring us our check and it turned out to be $_de. It was _b that my date offered to pay for my t-shirt and the dinner. But, I was still extremely _a, and then I started _v the restaurant without saying a word to her.";
+        int i1 = original.indexOf("_n");
+        int i2 = original.indexOf("_dr");
+        int i3 = original.indexOf("_de");
+        int i4 = original.indexOf("_b");
+        int i5 = original.indexOf("_a");
+        int i6 = original.indexOf("_v");
+        String p1 = original.substring(0, i1);
+        String p2 = original.substring(i1 + 2, i2);
+        String p3 = original.substring(i2 + 3, i3);
+        String p4 = original.substring(i3 + 3, i4);
+        String p5 = original.substring(i4 + 2, i5);
+        String p6 = original.substring(i5 + 2, i6);
+        String p7 = original.substring(i6 + 2);
         // This segment asks the user for a variety of input to make the madlib
         System.out.println("Enter a whole number");
         int input1 = madScanner.nextInt();
