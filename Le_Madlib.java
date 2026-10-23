@@ -3,14 +3,16 @@ public class Le_Madlib {
     public static void main(String[] args) {
         // Intializes the scanner object
         Scanner madScanner = new Scanner(System.in);
-        // Intializing all of the pre-set phrases and displaying original story
+        // Initializes original story, prints it out, and documents all indexes for phrases
         String original = "My first date and I met at a  _n star restaurant. We were having a lot of fun until my date spilled _dr all over my new T-shirt. I immediately called the waiter to bring us our check and it turned out to be $_de. It was _b that my date offered to pay for my t-shirt and the dinner. But, I was still extremely _a, and then I started _v the restaurant without saying a word to her.";
+        System.out.println(original);
         int i1 = original.indexOf("_n");
         int i2 = original.indexOf("_dr");
         int i3 = original.indexOf("_de");
         int i4 = original.indexOf("_b");
         int i5 = original.indexOf("_a");
         int i6 = original.indexOf("_v");
+        // Parses the original story for each phrase
         String p1 = original.substring(0, i1);
         String p2 = original.substring(i1 + 2, i2);
         String p3 = original.substring(i2 + 3, i3);
